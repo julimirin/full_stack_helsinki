@@ -24,6 +24,8 @@ const App = () => {
       {/* Botones que llaman a los manejadores correspondientes */}
       <h1>Give Feedback</h1>
       <Button handleClick={increaseGood} text="good" />
+      
+      
       <Button handleClick={increaseNeutral} text="neutral" />
       <Button handleClick={increaseBad} text="bad" />
 
